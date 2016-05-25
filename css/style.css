@@ -18,8 +18,13 @@ div {
 	display: inline-block;
 	margin-left: 1.563rem;
 }
-.top-navigation .logo {
+/*.top-navigation .logo {
     height: 4.375rem;
+}*/
+
+element.style {
+	margin-left: 14px;
+	height: 70px;
 }
 
 img[Attributes Style] {
