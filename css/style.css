@@ -10,3 +10,7 @@ div {
 	display: inline-block;
 	margin-left: 1.563rem;
 }
+
+img[Attributes Style] {
+    width: 26px;
+}
