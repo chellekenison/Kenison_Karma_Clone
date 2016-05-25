@@ -6,11 +6,35 @@ div {
 	border: 1px solid Chocolate;
 }
 
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+}
+
 .top-navigation .links li {
 	display: inline-block;
 	margin-left: 1.563rem;
 }
+.top-navigation .logo {
+    height: 4.375rem;
+}
 
 img[Attributes Style] {
     width: 26px;
+}
+
+.content {
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+
+
+.top-navigation > .content {
+    height: 4.375rem;
+    width: 970px;
+    margin: 0 auto;
 }
