@@ -5,3 +5,8 @@ body {
 div {
 	border: 1px solid Chocolate;
 }
+
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 1.563rem;
+}
