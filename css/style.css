@@ -1,4 +1,11 @@
-/*These styles are just for making the page elements more visible*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
 	background-color: LightGray;
 	font-family: 'Roboto', sans-serif;
@@ -17,6 +24,12 @@ body {
     z-index: 9999;
 }
 
+.top-navigation .links {
+	float: right;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
+}
+
 .top-navigation .links li {
 	display: inline-block;
 	margin-left: 1.563rem;
@@ -25,15 +38,23 @@ body {
 .top-navigation .links li.active {
 	color: #4c5058;
 	font-weight: 500;
-}
+}	
 
-.top-navigation .links {
-	float: right;
+/*This one doesn't work--links look purple still with this code*/
+/*top-navigation .links .active {
+	color: #4c5058;
+	font-weight: 500;
+} */
+/*This one works, changes links to gray, but why is MEET KARMA gray?*/
+.top-navigation .links a{
+	text-decoration: none;
 	color: #838994;
-	font-size: 1.04rem;
-	margin-top: 1.7rem;
 }
 
+.top-navigation .links :hover {
+	color: #333333;
+	cursor: pointer;
+}
 
 .content {
     padding: 0 0.938rem;
@@ -41,9 +62,36 @@ body {
     min-width: 37.5rem;
 }
 
-
 .top-navigation > .content {
     height: 4.375rem;
     width: 970px;
     margin: 0 auto;
+}
+
+/*IMAGE SECTION*/
+
+.introduction {
+	background-image: url('../images/first-background copy.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow:auto;
+}
+
+.introduction h1{
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+
+.introduction h1, .introduction h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+
+.introduction .buttons{
+	color: white;
+	text-align: center;
+	margin-top: 1.563rem;
 }
