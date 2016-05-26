@@ -1,10 +1,13 @@
 /*These styles are just for making the page elements more visible*/
 body {
 	background-color: LightGray;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
-div {
+
+/*div {
 	border: 1px solid Chocolate;
-}
+} */
 
 .top-navigation {
     background-color: #fff;
