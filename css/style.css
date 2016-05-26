@@ -35,21 +35,22 @@ body {
 	margin-left: 1.563rem;
 }
 
-.top-navigation .links li.active {
-	color: #4c5058;
-	font-weight: 500;
-}	
 
 /*This one doesn't work--links look purple still with this code*/
 /*top-navigation .links .active {
 	color: #4c5058;
 	font-weight: 500;
 } */
-/*This one works, changes links to gray, but why is MEET KARMA gray?*/
+
 .top-navigation .links a{
 	text-decoration: none;
 	color: #838994;
 }
+
+.top-navigation .links li.active a{
+	color: #4c5058;
+	font-weight: 500;
+}	
 
 .top-navigation .links :hover {
 	color: #333333;
