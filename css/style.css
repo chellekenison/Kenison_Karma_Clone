@@ -113,3 +113,20 @@ button {
 	cursor: pointer;
 }
 
+/*FOOTER SECTION*/
+
+.cases h2 {
+	font-size: 2.75rem;
+	margin:1.625rem 0 3.125rem;
+	font-weight: 300;
+}
+
+.cases .content {
+	margin-top: 7.875rem;
+	color: #1d1e21;
+	text-align: center;
+}
+
+ol, ul{
+	list-style:none;
+}
