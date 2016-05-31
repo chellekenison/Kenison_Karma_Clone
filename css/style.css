@@ -107,3 +107,8 @@ button {
 	color: white;
 	font-size: 1.125rem;
 }
+
+.buttons :hover {
+	background-color: #e8270c;
+	cursor: pointer;
+}
