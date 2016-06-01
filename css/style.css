@@ -7,7 +7,7 @@ html {
 }
 
 body {
-	background-color: LightGray;
+	background-color: white;
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
@@ -115,6 +115,10 @@ button {
 
 /*FOOTER SECTION*/
 
+div {
+	display: block;
+}
+
 .cases h2 {
 	font-size: 2.75rem;
 	margin:1.625rem 0 3.125rem;
@@ -129,4 +133,42 @@ button {
 
 ol, ul{
 	list-style:none;
+}
+
+ul.devices {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+.cases .devices h3{
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin:2.5rem 0px 1.875rem;
+}
+
+h3{
+	display: block;
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+section.cases {
+	margin:0
+	padding: 0;
+	border:0;
+	vertical-align: baseline;
+	box-sizing:border-box;
+}
+
+/*.cases .devices {
+    display: inline-block;
+    margin-right: -4px;
+}
+*/
+
+.cases .devices > li{
+	width: 33.333333%;
+	float: left;
 }
