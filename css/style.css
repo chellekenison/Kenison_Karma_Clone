@@ -167,8 +167,47 @@ section.cases {
     margin-right: -4px;
 }
 */
-
 .cases .devices > li{
 	width: 33.333333%;
 	float: left;
+}
+
+/*FOOTER SECTION*/
+.social hr{
+	border: 0;
+	border-top: 1 px solid #eaebec;
+	margin:1.313rem 0;
+}
+
+hr {
+	display:block;
+	-webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+}
+.social {
+	background-color: #fff;
+	/*overflow: auto;*/	
+	padding-bottom: 9.375rem;
+	text-align: center;
+}
+
+/*Inspect the twitter element to finish this*/
+.social .icons > li {
+	border-radius:1.25rem;
+	w:2.5rem;
+
+}
+
+.fa-twitter:before {
+	content: "\f099";
+}
+
+.fa{
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
 }
